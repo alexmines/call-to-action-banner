@@ -15,6 +15,30 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.5rem;
 }
-- *Text sizes:* `3rem`, `1.5rem`
-- *Expected class names:* `.banner`, `.img-flex`, `.btn`, `.btn-big`
-- *Banner maximum height:* `500px`
+
+.btn-big {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+}
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
